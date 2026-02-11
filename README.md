@@ -1,17 +1,17 @@
-# When Would Vision-Proprioception Policies Fail in Robotic Manipulation?
+# When would Vision-Proprioception Policies Fail in Robotic Manipulation?
 
-Authors: [Jingxian Lu](https://github.com/JingxianLu)\*, [Wenke Xia](https://xwinks.github.io/)\*, Yuxuan Wu, [Zhiwu Lu](https://scholar.google.cz/citations?user=OUXS8doAAAAJ), [Di Hu](https://scholar.google.cz/citations?user=F7bvTOEAAAAJ)†
+Authors: [Jingxian Lu](https://github.com/JingxianLu)\*, [Wenke Xia](https://xwinks.github.io/)\*, Yuxuan Wu, [Zhiwu Lu](https://scholar.google.cz/citations?user=OUXS8doAAAAJ), [Di Hu](https://scholar.google.cz/citations?user=F7bvTOEAAAAJ)&#9993;
 
 Accepted By: __2026 International Conference on Learning Representations (ICLR)__
 
-Resources:[[Project Page](https://gewu-lab.github.io/Gradient_Adjustment_with_Phase-guidance/)], [[Paper](https://openreview.net/forum?id=2RIqqNqALN&noteId=NwdhXObvoO)]
+Resources:[[Project Page](https://gewu-lab.github.io/GAP/)], [[Paper](https://openreview.net/forum?id=2RIqqNqALN&noteId=NwdhXObvoO)]
 
 If you have any questions, please open an issue or send an email to jingxianlu1122@gmail.com.
 ___
 
 ## Introduction
 
-This is the PyTorch code of our paper: __When Would Vision-Proprioception Policies Fail in Robotic Manipulation?__
+This is the PyTorch code of our paper: __When would Vision-Proprioception Policies Fail in Robotic Manipulation?__
 
 In this work, we investigate when vision-proprioception policies would fail in robotic manipulation by conducting temporally controlled experiments. We found that during task sub-phases that robot's motion transitions, which require target localization, the vision modality of the vision-proprioception policy plays a limited role. Further analysis reveals that the policy naturally gravitates toward concise proprioceptive signals that offer faster loss reduction when training, thereby dominating the optimization and suppressing the learning of the visual modality during motion-transition phases. 
 
