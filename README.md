@@ -56,3 +56,19 @@ Run inference on the trained model:
 ```bash
 python gap/inference.py task=assembly method=gap image=true proprio=true
 ```
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@misc{lu2026visionproprioceptionpoliciesfailrobotic,
+      title={When would Vision-Proprioception Policies Fail in Robotic Manipulation?}, 
+      author={Jingxian Lu and Wenke Xia and Yuxuan Wu and Zhiwu Lu and Di Hu},
+      year={2026},
+      eprint={2602.12032},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2602.12032}, 
+}
+```
